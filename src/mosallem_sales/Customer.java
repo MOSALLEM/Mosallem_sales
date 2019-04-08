@@ -1,11 +1,13 @@
 package mosallem_sales;
 
+import java.util.ArrayList;
+
 public class Customer {
 	int customerID;
 	String firstName;
 	
 	public Customer() {
-		
+		ArrayList accounts = new ArrayList<>();
 	}
 
 	public int getCustomerID() {
